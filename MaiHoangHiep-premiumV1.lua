@@ -34,6 +34,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab2o = MakeTab({Name = "Scripts fix laggg"})
      local Tab3o = MakeTab({Name = "Scripts farm and raid"})
      local Tab4o = MakeTab({Name = "Scripts farm born"})
+     local Tab5o = MakeTab({Name = "Scripts của AD"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -105,5 +106,20 @@ AddButton(Tab4o, {
      Name = "Jack-J97",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
+  end
+  })
+AddButton(Tab5o, {
+     Name = "Mai Hoàng Hiệp V2",
+    Callback = function() loadstring(game:HttpGet(" https://raw.githubusercontent.com/maihoanghiep/maihoanghiep/refs/heads/main/MaiHoangHiep2.lua"))()
+  end
+  })
+AddButton(Tab5o, {
+     Name = "Haidz V1",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/haizzzz-2407/H-i-dz-hub/refs/heads/main/Haidz.lua.txt"))()
+  end
+  })
+AddButton(Tab5o, {
+     Name = "Haidz V2",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/haizzzz-2407/Haidzzv2/refs/heads/main/haidz2407.lua.txt"))()
   end
   })
