@@ -19,7 +19,13 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
           }
       }      
   })
-
+local menuImage = Instance.new("ImageLabel")
+menuImage.Size = UDim2.new(0, 300, 0, 200) -- chỉnh kích thước theo ý bạn
+menuImage.Position = UDim2.new(0.5, -150, 0.5, -100) -- căn giữa màn hình
+menuImage.AnchorPoint = Vector2.new(0.5, 0.5) -- cho căn giữa dễ dàng
+menuImage.BackgroundTransparency = 1
+menuImage.Image = "rbxassetid://108491110926041" -- thay bằng ID ảnh của bạn
+menuImage.Parent = script.Parent
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=114948438508780",
        Size = {40, 40},
