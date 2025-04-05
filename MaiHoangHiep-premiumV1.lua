@@ -2,8 +2,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Hiệp Roblox Hub - premium",
-         Animation = "Mai Hoàng Hiệp - pre"
+         Title = "Hiệp Roblox Hub - Premium",
+         Animation = "Mai Hoàng Hiệp - Pre"
          },
         Key = {
         KeySystem = false,
@@ -30,7 +30,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Tổng Hợp"})
+     local Tab1o = MakeTab({Name = "Scripts Tổng Hợp"})
+     local Tab2o = MakeTab({Name = "Scripts fix laggg"})
      
 ------- BUTTON
     
@@ -73,5 +74,11 @@ AddButton(Tab1o, {
      Name = "Jack-J97",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
+  end
+  })
+AddButton(Tab2o, {
+     Name = "Fix lag",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })
