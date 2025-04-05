@@ -1,28 +1,28 @@
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
-
        local Window = MakeWindow({
          Hub = {
-         Title = "Hiệp Roblox Hub - premium",
-         Animation = "Mai Hoàng Hiệp - pre"
+         Title = "Hiệp Roblox Hub - Premium",
+         Animation = "Mai Hoàng Hiệp - Pre"
          },
-        Key = {
-        KeySystem = false,
-        Title = "Key System",
-        Description = "Get Key Ib",
-        KeyLink = "",
-        Keys = {"23092012"},
-        Notifi = {true
-        Notifications = true,
-        CorrectKey = "Running the Script...",
-       Incorrectkey = "The key is incorrect",
-       CopyKeyLink = "Copied to Clipboard"
-      }
-    }
+         Key = {
+          KeySystem = true, -- Bật/tắt hệ thống key
+          Title = "Key System",
+          Description = "Vui lòng nhập key để tiếp tục",
+          KeyLink = "https://link4m.com/DHSdzFpA", -- Link lấy key
+          Keys = {"23092012"}, -- Danh sách key hợp lệ
+    
+          Notifi = {
+              Notifications = true,
+              CorrectKey = "✅ Key đúng! Đang chạy script...",
+              IncorrectKey = "❌ Key sai!",
+              CopyKeyLink = "📋 Link key đã được sao chép!"
+          }
+      }      
   })
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=114948438508780",
-       Size = {60, 60},
+       Size = {40, 40},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
@@ -30,18 +30,20 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       })
       
 ------ Tab
-     local Tab1o = MakeTab({Name = "Script Tổng Hợp"})
-     
+     local Tab1o = MakeTab({Name = "Scripts Tổng Hợp"})
+     local Tab2o = MakeTab({Name = "Scripts Fix Laggg"})
+     local Tab3o = MakeTab({Name = "Scripts Farm and Raid"})
+     local Tab4o = MakeTab({Name = "Scripts Farm Born"})
+     local Tab5o = MakeTab({Name = "Scripts của AD"})
 ------- BUTTON
     
     AddButton(Tab1o, {
-     Name = "Mai Hoàng Hiệp v2",
+     Name = "Mai Hoàng Hiệp v1",
     Callback = function()
 	  local Settings = {
   JoinTeam = "Pirates"; -- Pirates/Marines
   Translator = true; -- true/false
 }
-
 loadstring(game:HttpGet(" https://raw.githubusercontent.com/maihoanghiep/maihoanghiep/refs/heads/main/MaiHoangHiep2.lua"))()
   end
   })
@@ -51,6 +53,12 @@ AddButton(Tab1o, {
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })
+  AddButton(Tab1o, {
+    Name = "Lion Hub",
+   Callback = function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
+ end
+ })
 AddButton(Tab1o, {
      Name = "BapRedHub",
     Callback = function()
@@ -73,5 +81,67 @@ AddButton(Tab1o, {
      Name = "Jack-J97",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
+  end
+  })
+AddButton(Tab2o, {
+     Name = "Fix lag V1",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+  })
+  AddButton(Tab2o, {
+    Name = "Fix lag V2",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/VanThanhIOS2027Online"))()
+ end
+ })
+AddButton(Tab3o, {
+     Name = "BapRedHub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
+  end
+  })
+AddButton(Tab3o, {
+     Name = "Min Gaming",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinMV"))()
+  end
+  })
+  AddButton(Tab3o, {
+    Name = "Lion Hub",
+   Callback = function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
+ end
+ })
+AddButton(Tab4o, {
+     Name = "MonsterHub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/giahuy2511-coder/MonsterHub/refs/heads/main/MonsterHub"))()
+  end
+  })
+AddButton(Tab4o, {
+     Name = "Jack-J97",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
+  end
+  })
+  AddButton(Tab4o, {
+    Name = "Lion Hub",
+   Callback = function() 
+      loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
+ end
+ })
+AddButton(Tab5o, {
+     Name = "Mai Hoàng Hiệp V2",
+    Callback = function() loadstring(game:HttpGet(" https://raw.githubusercontent.com/maihoanghiep/maihoanghiep/refs/heads/main/MaiHoangHiep2.lua"))()
+  end
+  })
+AddButton(Tab5o, {
+     Name = "Haidz V1",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/haizzzz-2407/H-i-dz-hub/refs/heads/main/Haidz.lua.txt"))()
+  end
+  })
+AddButton(Tab5o, {
+     Name = "Haidz V2",
+    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/haizzzz-2407/Haidzzv2/refs/heads/main/haidz2407.lua.txt"))()
   end
   })
