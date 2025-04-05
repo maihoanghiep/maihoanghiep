@@ -11,7 +11,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Description = "",
         KeyLink = "",
         Keys = {"23092012"},
-        Notifi = {true
+        Notifi = {
         Notifications = true,
         CorrectKey = "Running the Script...",
        Incorrectkey = "The key is incorrect",
