@@ -3,7 +3,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
        local Window = MakeWindow({
          Hub = {
          Title = "Hiệp Roblox Hub - premium",
-         Animation = "Mai Hoàng Hiệp - premium"
+         Animation = "Mai Hoàng Hiệp - pre"
          },
         Key = {
         KeySystem = false,
@@ -11,7 +11,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
         Description = "",
         KeyLink = "",
         Keys = {"23092012"},
-        Notifi = {
+        Notifi = {true
         Notifications = true,
         CorrectKey = "Running the Script...",
        Incorrectkey = "The key is incorrect",
@@ -21,7 +21,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
   })
 
        MinimizeButton({
-       Image = "http://www.roblox.com/asset/?id=109307090778748",
+       Image = "http://www.roblox.com/asset/?id=114948438508780",
        Size = {60, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
