@@ -59,7 +59,7 @@ AddButton(Tab1o, {
 AddButton(Tab1o, {
     Name = "Fix lag V2",
    Callback = function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/VanThanhIOS2027Online"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/VanThanhIOS2027Online"))()
  end
  })
   AddButton(Tab1o, {
