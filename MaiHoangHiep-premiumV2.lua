@@ -37,6 +37,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab5o = MakeTab({Name = "Scripts của AD"})
      local Tab6o = MakeTab({Name = "Scripts Farm Mastery"})
      local Tab7o = MakeTab({Name = "Scripts Tìm Đảo Volcano"})
+     local Tab8o = MakeTab({Name = "Scripts Farm Tiền"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -97,10 +98,18 @@ AddButton(Tab1o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
   })
+AddButton(Tab1o, {
+    Name = "Wazure",
+   Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+AddButton(Tab1o, {
+    Name = "Redz",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))()
 AddButton(Tab2o, {
      Name = "Fix lag V1",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })
   AddButton(Tab2o, {
@@ -132,6 +141,12 @@ AddButton(Tab3o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
   })
+AddButton(Tab3o, {
+     Name = "Redz",
+    Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))()
+  end
+  })
 AddButton(Tab4o, {
      Name = "MonsterHub",
     Callback = function()
@@ -156,6 +171,12 @@ AddButton(Tab4o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
   })
+AddButton(Tab4o, {
+     Name = "Redz",
+    Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))()
+  end
+  })
 AddButton(Tab5o, {
      Name = "Mai Hoàng Hiệp V1",
     Callback = function() loadstring(game:HttpGet(" https://raw.githubusercontent.com/maihoanghiep/maihoanghiep/refs/heads/main/MaiHoangHiep2.lua"))()
@@ -177,8 +198,37 @@ AddButton(Tab6o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
   })
+AddButton(Tab6o, {
+     Name = "Redz",
+    Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))()
+  end
+  })
 AddButton(Tab7o, {
     Name = "Lion Hub",
    Callback = function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
  end
  })
+AddButton(Tab8o, {
+    Name = "Wazure",
+   Callback = function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+ end
+ })
+AddButton(Tab8o, {
+     Name = "Min Gaming",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Min/refs/heads/main/MinMV"))()
+  end
+  })
+AddButton(Tab8o, {
+     Name = "Jack-J97",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
+  end
+  })
+AddButton(Tab8o, {
+     Name = "MonsterHub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/giahuy2511-coder/MonsterHub/refs/heads/main/MonsterHub"))()
+  end
+  })
