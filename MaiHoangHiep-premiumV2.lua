@@ -35,6 +35,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab3o = MakeTab({Name = "Scripts Farm and Raid"})
      local Tab4o = MakeTab({Name = "Scripts Farm Born"})
      local Tab5o = MakeTab({Name = "Scripts của AD"})
+     local Tab6o = MakeTab({Name = "Scripts Farm Mastery"})
+     local Tab7o = MakeTab({Name = "Scripts Tìm Đảo Volcano"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -90,7 +92,7 @@ AddButton(Tab1o, {
   end
   })
 AddButton(Tab1o, {
-     Name = "Atuza",
+     Name = "Astral",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
@@ -125,7 +127,7 @@ AddButton(Tab3o, {
  end
  })
 AddButton(Tab3o, {
-     Name = "Atuza",
+     Name = "Astral",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
@@ -149,7 +151,7 @@ AddButton(Tab4o, {
  end
  })
 AddButton(Tab4o, {
-     Name = "Atuza",
+     Name = "Astral",
     Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
@@ -169,3 +171,14 @@ AddButton(Tab5o, {
     Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/haizzzz-2407/Haidzzv2/refs/heads/main/haidz2407.lua.txt"))()
   end
   })
+AddButton(Tab6o, {
+     Name = "Astral",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+  })
+AddButton(Tab7o, {
+    Name = "Lion Hub",
+   Callback = function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
+ end
+ })
