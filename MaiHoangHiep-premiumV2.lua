@@ -102,10 +102,14 @@ AddButton(Tab1o, {
     Name = "Wazure",
    Callback = function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
 AddButton(Tab1o, {
     Name = "Redz",
    Callback = function()
 loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))()
+  end
+  })
 AddButton(Tab2o, {
      Name = "Fix lag V1",
     Callback = function()
