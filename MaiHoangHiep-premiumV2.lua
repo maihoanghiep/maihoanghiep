@@ -48,11 +48,17 @@ loadstring(game:HttpGet(" https://raw.githubusercontent.com/maihoanghiep/maihoan
   end
   })
 AddButton(Tab1o, {
-     Name = "Fix lag",
+     Name = "Fix lag V1",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
   end
   })
+AddButton(Tab1o, {
+    Name = "Fix lag V2",
+   Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/VanThanhIOS2027Online"))()
+ end
+ })
   AddButton(Tab1o, {
     Name = "Lion Hub",
    Callback = function()
@@ -81,6 +87,12 @@ AddButton(Tab1o, {
      Name = "Jack-J97",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Jack-J97/refs/heads/main/Jack-J97.txt"))()
+  end
+  })
+AddButton(Tab1o, {
+     Name = "Atuza",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
   end
   })
 AddButton(Tab2o, {
@@ -112,6 +124,12 @@ AddButton(Tab3o, {
    Callback = function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
  end
  })
+AddButton(Tab3o, {
+     Name = "Atuza",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+  })
 AddButton(Tab4o, {
      Name = "MonsterHub",
     Callback = function()
@@ -130,6 +148,12 @@ AddButton(Tab4o, {
       loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
  end
  })
+AddButton(Tab4o, {
+     Name = "Atuza",
+    Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+  })
 AddButton(Tab5o, {
      Name = "Mai Hoàng Hiệp V1",
     Callback = function() loadstring(game:HttpGet(" https://raw.githubusercontent.com/maihoanghiep/maihoanghiep/refs/heads/main/MaiHoangHiep2.lua"))()
