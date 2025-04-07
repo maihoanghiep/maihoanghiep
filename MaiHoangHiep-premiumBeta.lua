@@ -4,12 +4,6 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Title = "Hiệp Roblox Hub - Premium",
          Animation = "Mai Hoàng Hiệp - Pre"
          },
-Key = {
-    KeySystem = true,
-    Title = "Key System",
-    Description = "Vui lòng nhập key để tiếp tục",
-    KeyLink = "https://link4m.com/00rxv", -- Link lấy key
-
     -- Cấu hình hệ thống key
 local Key = {
     KeySystem = true,
