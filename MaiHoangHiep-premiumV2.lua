@@ -5,11 +5,11 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
          Animation = "Mai Hoàng Hiệp - Pre"
          },
          Key = {
-          KeySystem = false, -- Bật/tắt hệ thống key
+          KeySystem = true, -- Bật/tắt hệ thống key
           Title = "Key System",
           Description = "Vui lòng nhập key để tiếp tục",
           KeyLink = "https://link4m.com/00rxv", -- Link lấy key
-          Keys = {"Premium_HiepDz1234567890987654321"}, -- Danh sách key hợp lệ
+          Keys = {"WeeklyKey_2025_Week14_HiepDz"}, -- Danh sách key hợp lệ
     
           Notifi = {
               Notifications = true,
