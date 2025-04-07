@@ -8,8 +8,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
           KeySystem = true, -- Bật/tắt hệ thống key
           Title = "Key System",
           Description = "Vui lòng nhập key để tiếp tục",
-          KeyLink = "https://link4m.com/DHSdzFpA", -- Link lấy key
-          Keys = {"23092012"}, -- Danh sách key hợp lệ
+          KeyLink = "https://link4m.com/00rxv", -- Link lấy key
+          Keys = {"Premium_HiepDz1234567890987654321"}, -- Danh sách key hợp lệ
     
           Notifi = {
               Notifications = true,
