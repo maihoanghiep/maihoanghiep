@@ -18,7 +18,6 @@ local Key = {
         CopyKeyLink = "📋 Link key đã được sao chép!"
     }
 }
-
 -- Hàm tạo key theo tuần
 local function getWeeklyKey()
     local currentTime = os.time()
@@ -35,8 +34,8 @@ local function checkKey(userInput)
         if Key.Notifi.Notifications then
             print(Key.Notifi.CorrectKey)
         end
-        -- CHẠY SCRIPT CHÍNH TẠI ĐÂY
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/maihoanghiep/maihoanghiep/refs/heads/main/MaiHoangHiep-premiumV2.lua"))()
+        -- CHẠY SCRIPT CHÍNH TẠI ĐÂY      
+loadstring(game:HttpGet("https://raw.githubusercontent.com/maihoanghiep/maihoanghiep/refs/heads/main/MaiHoangHiep-premiumV2.lua"))()
     else
         if Key.Notifi.Notifications then
             print(Key.Notifi.IncorrectKey)
@@ -51,7 +50,7 @@ getgenv().KeyInput = getgenv().KeyInput or "" -- mặc định rỗng nếu chư
 if Key.KeySystem then
     if getgenv().KeyInput == "" then
         print(Key.Description)
-        print("Lấy key tại: " .. Key.KeyLink)
+        print("Lấy key tại:https://link4m.com/00rxv" .. Key.KeyLink)
         print(Key.Notifi.CopyKeyLink)
     else
         checkKey(getgenv().KeyInput)
