@@ -213,6 +213,12 @@ AddButton(Tab7o, {
    Callback = function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
  end
  })
+AddButton(Tab7o, {
+    Name = "Redz",
+   Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))()
+  end
+  })
 AddButton(Tab8o, {
     Name = "Wazure",
    Callback = function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
