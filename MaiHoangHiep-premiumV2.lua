@@ -110,6 +110,12 @@ AddButton(Tab1o, {
 loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))()
   end
   })
+AddButton(Tab1o, {
+    Name = "Maru Hub Real (NO KEY) hợp tác với KimP (đã mua bản quyền)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+  end
+  })
 AddButton(Tab2o, {
      Name = "Fix lag V1",
     Callback = function()
@@ -151,6 +157,12 @@ AddButton(Tab3o, {
 loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))()
   end
   })
+AddButton(Tab3o, {
+    Name = "Maru Hub Real (NO KEY)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+  end
+  })
 AddButton(Tab4o, {
      Name = "MonsterHub",
     Callback = function()
@@ -179,6 +191,12 @@ AddButton(Tab4o, {
      Name = "Redz",
     Callback = function()
 loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))()
+  end
+  })
+AddButton(Tab4o, {
+    Name = "Maru Hub Real (NO KEY)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
   end
   })
 AddButton(Tab5o, {
@@ -213,10 +231,22 @@ AddButton(Tab7o, {
    Callback = function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
  end
  })
+AddButton(Tab6o, {
+    Name = "Maru Hub Real (NO KEY)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+  end
+  })
 AddButton(Tab7o, {
     Name = "Redz",
    Callback = function()
 loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))()
+  end
+  })
+AddButton(Tab7o, {
+    Name = "Maru Hub Real (NO KEY)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
   end
   })
 AddButton(Tab8o, {
@@ -240,5 +270,11 @@ AddButton(Tab8o, {
      Name = "MonsterHub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/giahuy2511-coder/MonsterHub/refs/heads/main/MonsterHub"))()
+  end
+  })
+AddButton(Tab8o, {
+    Name = "Maru Hub Real (NO KEY)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
   end
   })
