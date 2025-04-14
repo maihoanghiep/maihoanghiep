@@ -1,7 +1,7 @@
 loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
        local Window = MakeWindow({
          Hub = {
-         Title = "Hiệp Roblox Hub - Premium",
+         Title = "HiệpDz Hub - Premium",
          Animation = "Mai Hoàng Hiệp - Pre"
          },
          Key = {
@@ -9,7 +9,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
           Title = "Key System",
           Description = "Vui lòng nhập key để tiếp tục",
           KeyLink = "https://link4m.com/00rxv", -- Link lấy key
-          Keys = {"WeeklyKey_2025_Week14_HiepDz"}, -- Danh sách key hợp lệ
+          Keys = {"WeeklyKey_2025_Week15_HiepDz"}, -- Danh sách key hợp lệ
     
           Notifi = {
               Notifications = true,
