@@ -62,6 +62,12 @@ AddButton(Tab1o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/VanThanhIOS/OniiChanVanThanhIOS/refs/heads/main/VanThanhIOS2027Online"))()
  end
  })
+AddButton(Tab1o, {
+    Name = "Maru Hub Real (NO KEY) hợp tác với KimP (đã mua bản quyền)",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+  end
+  })
   AddButton(Tab1o, {
     Name = "Lion Hub",
    Callback = function()
@@ -111,9 +117,9 @@ loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))()
   end
   })
 AddButton(Tab1o, {
-    Name = "Maru Hub Real (NO KEY) hợp tác với KimP (đã mua bản quyền)",
+    Name = "Banana Hub FAKE by KimP",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
   end
   })
 AddButton(Tab2o, {
@@ -199,6 +205,12 @@ AddButton(Tab4o, {
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
   end
   })
+AddButton(Tab4o, {
+    Name = "Banana Hub FAKE by KimP",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+  end
+  })
 AddButton(Tab5o, {
      Name = "Mai Hoàng Hiệp V1",
     Callback = function() loadstring(game:HttpGet(" https://raw.githubusercontent.com/maihoanghiep/maihoanghiep/refs/heads/main/MaiHoangHiep2.lua"))()
@@ -226,17 +238,23 @@ AddButton(Tab6o, {
 loadstring(game:HttpGet("https://pastefy.app/ACOX6D6h/raw"))()
   end
   })
-AddButton(Tab7o, {
-    Name = "Lion Hub",
-   Callback = function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
- end
- })
 AddButton(Tab6o, {
     Name = "Maru Hub Real (NO KEY)",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
   end
   })
+AddButton(Tab6o, {
+    Name = "Banana Hub FAKE by KimP",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
+  end
+  })
+AddButton(Tab7o, {
+    Name = "Lion Hub",
+   Callback = function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e0c7fcf6c077fc23475cf4ce4db58e42.lua"))()
+ end
+ })
 AddButton(Tab7o, {
     Name = "Redz",
    Callback = function()
@@ -276,5 +294,11 @@ AddButton(Tab8o, {
     Name = "Maru Hub Real (NO KEY)",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/KimP/refs/heads/main/MaruHub"))()
+  end
+  })
+AddButton(Tab8o, {
+    Name = "Banana Hub FAKE by KimP",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/kimprobloxdz/Banana-Free/refs/heads/main/Protected_5609200582002947.lua.txt"))()
   end
   })
